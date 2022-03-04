@@ -13,12 +13,11 @@ class ResponsibleSerializer(serializers.ModelSerializer):
             'id',
             'full_name',
             'doc_number',
-            'timestamp_create',
-            'status',
             'address',
             'city',
             'state',
-            'position',
+            'timestamp_created',
+            'status',
             'email',
             'phone_number',
             'employee'
@@ -29,19 +28,19 @@ class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
         fields = (
-            'id'
+            'id',
             'full_name',
             'doc_number',
-            'timestamp_create',
-            'status',
             'address',
             'city',
             'state',
-            'birth_date',
-            'sex',
-            'email',
-            'responsible',
-            'responsible_type',
-            'employee',
+            'timestamp_created',
+            'status',
+            'birth_date', 
+            'sex', 
+            'email', 
+            'responsible', 
+            'responsible_type', 
+            'employee'
         )
 

@@ -30,7 +30,7 @@ class Position(models.Model):
         ordering = ['id']
 
     def __str__(self):
-        return self.name
+        return self.position_name
 
 
 class Employee(Base):
@@ -44,7 +44,7 @@ class Employee(Base):
         ordering = ['id']
 
     def __str__(self):
-        return self.name
+        return self.full_name
 
 class Responsible(Base):
     """
@@ -58,7 +58,7 @@ class Responsible(Base):
         ordering = ['id']
 
     def __str__(self):
-        return self.name
+        return self.full_name
 
 class Student(Base):
     """
@@ -96,4 +96,4 @@ class Student(Base):
         ordering = ['id']
 
     def __str__(self):
-        return self.name
+        return self.full_name
