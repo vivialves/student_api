@@ -234,3 +234,6 @@ node_modules/
 # setting because secret_key
 school/settings_.py
 
+# Ignore vscode files
+
+.vscode/

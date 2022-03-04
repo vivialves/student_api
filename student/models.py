@@ -70,7 +70,7 @@ class Student(Base):
     FEMALE = 'F'
     SEX = (
         (UNDEFINED, ''),
-        (MALE, 'Male'),
+        (MALE, 'MALE'),
         (FEMALE, 'FEMALE')
     )
 
